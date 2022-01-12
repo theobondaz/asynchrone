@@ -1,0 +1,61 @@
+#nakatey {
+  font-size: 36px;
+
+}
+
+
+.little-font {
+  font-size: 16px;
+}
+
+.nft-text {
+  font-size: 24px;
+  color:white;
+  font-family: "sofachrome";
+  margin-bottom: 16px;
+}
+
+
+.song-title {
+  font-family: 'sofachrome';
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  position: absolute;
+  top: 72px;
+  left: -96px;
+}
+
+.song-title2 {
+  font-family: 'sofachrome';
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  position: absolute;
+  top: 72px;
+  right: -96px;
+}
+
+
+
+.asynchrone {
+  font-family:'sofachrome';
+  font-size: 24px;
+  color: white;
+  margin-top:32px;
+  margin-bottom: 16px;
+}
+
+
+.tracklist {
+  margin-bottom: 24px;
+}
+
+.tracklist-video {
+  margin-bottom: 200px;
+}
+
+.banner {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}

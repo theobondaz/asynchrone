@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+  font-family: "sofachrome";
+  color: #C48D45;
+
+}
+
+a:hover {
+
+  color: #C48D45;
+}
+
+body {
+  margin: 0;
+  background-color: #0F0E17;
+}

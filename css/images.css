@@ -1,0 +1,24 @@
+.cover {
+  width: 650px;
+  height: 650px;
+}
+
+.plateformes {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+
+.img-plateforme {
+  width: 150px;
+  object-fit: contain;
+}
+
+
+.icon {
+  color: #C48D45;
+  font-size: 32px;
+}

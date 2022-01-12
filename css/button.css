@@ -1,0 +1,43 @@
+.btn-mint {
+  width: 500px;
+  height: 65px;
+  color: white;
+  background-color: #C48D45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  border-radius: 8px;
+}
+
+
+.info-mint {
+  font-size: 16px;
+  font-family: 'sofachrome';
+  opacity: 0.8;
+  margin-top: 8px;
+  color: white;
+}
+
+
+.btn-wallet {
+
+background-color: #C48D45 !important;
+border-radius: 50px;
+height: 46px;
+font-size: 14px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: black;
+transition: color 0.2s ease-out;
+padding: 16px;
+}
+
+
+.btn-wallet:hover {
+color: white;
+
+}
+
+
