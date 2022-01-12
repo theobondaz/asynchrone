@@ -1,5 +1,5 @@
 import './css/index.css';
-import simpleParallax from 'simple-parallax-js';
+// import simpleParallax from 'simple-parallax-js';
 // const solanaWeb3 = require('@solana/web3.js');
 // console.log(solanaWeb3);
 

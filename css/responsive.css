@@ -1,0 +1,171 @@
+/* Smartphones (portrait and landscape) ----------- */
+.mobilepart {
+  display: none;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+  .mobilepart {
+    display: block;
+  }
+  .container {
+    width: 300px;
+  }
+
+  video {
+    width: 200px;
+  }
+
+  .btn-mint {
+    width: 100%;
+  }
+
+
+  .release > .container > h2 {
+    text-align: center;
+  }
+
+  iframe {
+    width: 100%;
+  }
+  .mobilepart {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .secondpart {
+    display: none;
+  }
+
+  .mobilepart .links {
+   display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 24px;
+  line-height: 1.7rem;
+  }
+
+  /* .nft-text {
+    margin-top: 24px;
+  } */
+
+  .navbar-black {
+    height: 100%;
+  }
+
+  .wallet {
+    display: none;
+  }
+
+  .song-title {
+    display: none;
+  }
+  .song-title2 {
+    display: none;
+  }
+
+  .navbar {
+    border-bottom: 1px solid #C48D45;
+    padding-bottom: 24px;
+  }
+
+
+  .asynchrone {
+    font-size: 12px;
+  }
+
+  .plateformes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+        margin-top: 0px;
+    margin-top: 32px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cover {
+  width: 300px;
+  height: 300px;
+}
+
+.spotify {
+  margin-bottom: 16px;
+}
+
+.deezer {
+  margin-bottom: 20px;
+}
+
+.apple {
+  margin-bottom: 24px;
+}
+
+.tracklist {
+  margin-top: 24px;
+}
+
+.tracklist-video {
+  margin-bottom: 60px
+}
+
+.banner {
+  height: 200px;
+}
+
+.filter-orange {
+  display: none;
+}
+.filter-orange2 {
+  display: none;
+}
+
+.release > .container > h2 {
+  margin-top: 24px
+}
+
+.tracklist-video {
+  width: 110%;
+}
+/* Styles */
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
