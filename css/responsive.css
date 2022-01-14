@@ -21,6 +21,9 @@ and (max-device-width : 480px) {
   .btn-mint {
     width: 100%;
   }
+  .btn-mint2 {
+    width: 100%;
+  }
 
 
   .release > .container > h2 {
@@ -69,6 +72,7 @@ and (max-device-width : 480px) {
   .navbar {
     border-bottom: 1px solid #C48D45;
     padding-bottom: 24px;
+    justify-content: center;
   }
 
 
@@ -129,6 +133,21 @@ and (max-device-width : 480px) {
 
 .tracklist-video {
   width: 110%;
+}
+
+video {
+    width: 270px;
+}
+
+.info-mint {
+  margin-bottom: 24px;
+}
+.btn-mint2 {
+  display: flex;
+}
+
+.little-font {
+  font-size: 10px
 }
 /* Styles */
 }

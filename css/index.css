@@ -14,13 +14,30 @@
 
 
 
-
-
 @font-face {
-    font-family: 'myfont';
-    src: url('fonts/sofachrome_rg-webfont.woff');
-    src: url('fonts/sofachrome_rg-webfont.woff') format('woff'),
+    font-family: 'Sofachrome';
+    src:url('Sofachrome.ttf.woff') format('woff'),
+        url('Sofachrome.ttf.svg#Sofachrome') format('svg'),
+        url('Sofachrome.ttf.eot'),
+        url('Sofachrome.ttf.eot?#iefix') format('embedded-opentype');
+
 }
+
+
+/*
+@font-face {
+    font-family: 'sofachrome';
+    src: url('fonts/sofachrome_rg-webfont.woff');
+    src: url('./fonts/sofachrome.ttf') format("truetype"),
+         url('fonts/sofachrome_rg-webfont.woff') format('woff');
+} */
+
+/* @font-face {
+    font-family: 'sofachrome' !important;
+  src: url('fonts/sofachrome_rg-webfont.woff');
+    src: url('./fonts/sofachrome.ttf') format("truetype"),
+         url('fonts/sofachrome_rg-webfont.woff') format('woff');
+  } */
 
 
 

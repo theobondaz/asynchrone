@@ -10,6 +10,27 @@
   border-radius: 8px;
 }
 
+.btn-mint:hover {
+  color: white;
+}
+
+
+
+
+
+.btn-mint2 {
+  display: none;
+   width: 500px;
+  height: 65px;
+  color: white;
+  background-color: #f25f4c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  border-radius: 8px;
+}
+
 
 .info-mint {
   font-size: 16px;

@@ -1,10 +1,46 @@
-import './css/index.css';
+// import './css/index.css';
+console.log('insidemain');
 // import simpleParallax from 'simple-parallax-js';
 // const solanaWeb3 = require('@solana/web3.js');
 // console.log(solanaWeb3);
 
+// var i = 0;
+// const text = document.getElementById("demo").innerHTML;
+// var txt = text;
+// var speed = 50; /* The speed/duration of the effect in milliseconds */
+const button = document.querySelector('.btn-mint');
+
+// const typeWriter = () => {
+//   console.log('inside')
+//   if (i < txt.length) {
+//     document.getElementById("demo").innerHTML += txt.charAt(i);
+//     i++;
+//     setTimeout(typeWriter, speed);
+//   }
+// }
+function typeWriter() {
+  let i = 0;
+  const txt = 'Lorem ipsum dummy text blabla.';
+  const speed = 50;
+  console.log('first')
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+    console.log('tic')
+  }
+}
+
+button.addEventListener("mouseover", (event) => {
+typeWriter();
+console.log('ldeoz')
+})
+
+
+
+
 const image = document.querySelector('.thumbnail');
-new simpleParallax(image);
+// new simpleParallax(image);
 
 const isPhantomInstalled = window.solana && window.solana.isPhantom
 
@@ -52,15 +88,15 @@ btn.innerText = serializedString;
 
 
 const network = "<NETWORK_URL>";
-const connection = new Connection(network);
-const transaction = new Transaction();
-const { signature } = await window.solana.request({
-  method: "signAndSendTransaction",
-  params: {
-    message: bs58.encode(transaction.serializeMessage()),
-  },
-});
-await connection.confirmTransaction(signature);
+// const connection = new Connection(network);
+// const transaction = new Transaction();
+// const { signature } = await window.solana.request({
+//   method: "signAndSendTransaction",
+//   params: {
+//     message: bs58.encode(transaction.serializeMessage()),
+//   },
+// });
+// await connection.confirmTransaction(signature);
 
 
 const message = `To avoid digital dognappers,
